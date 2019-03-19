@@ -1,7 +1,7 @@
 package ko.maeng.linkedList;
 
 public class Node {
-       int data;
+    int data;
     Node next = null;
 
     Node(int d){

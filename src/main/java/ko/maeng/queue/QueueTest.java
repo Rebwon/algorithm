@@ -1,6 +1,5 @@
 package ko.maeng.queue;
 
-import java.util.Optional;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -17,6 +16,5 @@ public class QueueTest {
         while(!queue.isEmpty()){
             System.out.println(queue.poll());
         }
-
     }
 }
