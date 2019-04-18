@@ -63,12 +63,10 @@ public class StreamTest {
         System.out.println(sum);    //25
 
         // 연산
-        long count = IntStream.of(1,3,5,7,9).count();
-        long sum2 = IntStream.of(1,3,5,7,9).sum();
+        long count = IntStream.of(1,3,5,7,9).count();   //5
+        long sum2 = IntStream.of(1,3,5,7,9).sum();      //25
 
         OptionalInt max = IntStream.of(1, 3, 5, 7, 9).max();
         OptionalInt min = IntStream.of(1, 3, 5, 7, 9).min();
-
-        
     }
 }
